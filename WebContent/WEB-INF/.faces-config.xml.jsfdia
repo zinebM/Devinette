@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#pages#invite.xhtml"
+  PATH="/pages/invite.xhtml" SHAPE="280,144,50,25" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#invite.xhtml:0" NAME="item"
+   PATH="/pages/invite.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#pages#success.xhtml" NAME="output"
+    PATH="/pages/success.xhtml" TARGET="rules:#pages#success.xhtml"
+    TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#pages#success.xhtml"
+  PATH="/pages/success.xhtml" SHAPE="664,144,50,25" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#pages#success.xhtml:0" NAME="item"
+   PATH="/pages/success.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="invite::#pages#invite.xhtml" NAME="output"
+    PATH="/pages/invite.xhtml" TARGET="rules:#pages#invite.xhtml"
+    TITLE="invite" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+</PROCESS>
